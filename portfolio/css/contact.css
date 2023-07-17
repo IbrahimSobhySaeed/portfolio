@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+}
+body{
+  
+overflow: hidden;
+}
+.profile-area{
+    width: 100%;
+    background-color: #222;
+    border: 1px solid #222;
+ 
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+.about-content,.hobbies-content{
+    padding: 2rem;
+}
+.area-title{
+    display: inline-block;
+    position: relative;
+    margin: 2rem 0;
+}
+.area-title h2{
+    color: #eee;
+    font-size: 2rem;
+}
+
+.contact-boxs{
+    display: flex;
+    justify-self: center;
+    
+}
+.contact-info{
+    width: 40%;
+}
+
+.contact-info .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #333;
+   text-align: center;
+   color: #fff;
+    margin-bottom: 10px;
+    height: 85px;
+    width: 150px;
+    border: 1px solid #444;
+}
+.contact-info .box i{
+        font-size: 1.5rem;
+        display: block;
+        margin-bottom: 1rem;
+        color: #04b4e0;
+}
+.contact-info .box h3{
+    font-size: .8rem;
+}
+.contact-inputs{
+    position: relative;
+}
+.contact-inputs h3{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: .5rem;
+}
+.inputs  input,textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 15px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #333;
+    color: #FFF;
+}
+.send{
+    padding: 10px 25px;
+    border: 2px solid #04b4e0;
+    border-radius: 25px;
+    color: #f5f5f5;
+    background-color: transparent;
+    font-size: 1.2rem;
+    transition: all .5s;
+    text-decoration: none;
+    
+}
+.send:hover{
+    background-color: #04b4e0;
+}
+
+.thank{
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: #eee;
+}
+.contact-inputs .social{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+.contact-inputs .social a{
+    color: #FFF;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    text-decoration: none;
+    transition: all .3s;
+}
+.contact-inputs .social a:hover i{
+    color: #04b4e0;
+}
+
+.area-title h2{
+    text-transform: capitalize;
+    }
+    
+    .area-title h2 > span{
+       color: #04b4e0;
+        }
+
+.contact-inputs h3 span{
+    color: #04b4e0;
+}
+        

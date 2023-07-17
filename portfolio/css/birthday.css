@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+}
+body{
+  
+overflow: hidden;
+}
+.profile-area{
+    width: 100%;
+    background-color: #222;
+    border: 1px solid #222;
+    /* border-radius: 30px; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+.about-content,.hobbies-content{
+    padding: 2rem;
+}
+.area-title{
+    display: inline-block;
+    position: relative;
+    margin: 2rem 0;
+}
+.area-title h2{
+    color: #eee;
+    font-size: 2rem;
+}
+
+.area-data{
+    display: flex;
+    justify-content: space-around;
+}
+.area-data .area-text{
+    width: 55%;
+   
+}
+.area-data .area-text p{
+   font-size: .8rem;
+   line-height: 1.8;
+    color: #d5d5d5;
+}
+.area-information{
+    overflow: hidden;
+    width: 40%;
+}
+.area-information ul{
+    list-style: none;
+}
+.area-information span:first-child{
+    color: #04b4e0;
+    margin-right: 6px;
+    text-transform: capitalize;
+
+}
+.area-information span:last-child{
+    color: #d5d5d5;
+    text-transform: uppercase;
+}
+
+
+
+
+
+.bg{
+    background-image: url('../image/pexels-aleksandar-pasaric-4201659.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    animation: fadeOut 5s forwards 1s;
+   
+
+
+}
+.birth{
+    visibility: hidden;
+     animation: fadeIn 5s forwards 6s;
+    
+ 
+ }
+ .birth form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+ }
+ .birth textarea{
+     width: 50%;
+     margin-bottom: 15px;
+     padding: 15px;
+     font-size: 1rem;
+     border-radius: 25px;
+     background-color: #fff;
+     outline: none;
+     border: 2px solid #04b4e0;
+     color: #000;
+     font-size: 1.2rem;
+     resize: none;
+ }
+ .birth a{
+     padding: 10px 25px;
+     border: 2px solid #04b4e0;
+     border-radius: 25px;
+     color: #f5f5f5;
+     background-color: transparent;
+     font-size: 1.2rem;
+    
+     text-decoration: none;
+ }
+ 
+ .birth a:hover{
+    transition: all .5s;
+     background-color: #04b4e0;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ @keyframes fadeOut{
+     from{
+ visibility: visible;
+     }
+     to{
+ visibility: hidden;
+     }
+ 
+ }
+ @keyframes fadeIn{
+     from{
+         visibility: hidden;
+     }
+     to{
+         visibility: visible;
+     }
+ }

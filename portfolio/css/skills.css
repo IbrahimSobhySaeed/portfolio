@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+}
+body{
+  
+overflow: hidden;
+}
+.profile-area{
+    width: 100%;
+    background-color: #222;
+    border: 1px solid #222;
+   
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    
+}
+
+
+
+
+
+
+
+
+.about-content,.hobbies-content{
+    padding: 2rem;
+}
+.area-title{
+    display: inline-block;
+    position: relative;
+    margin: 2rem 0;
+}
+.area-title h2{
+    color: #eee;
+    font-size: 2rem;
+}
+.area-data{
+    display: flex;
+    justify-content: space-around;
+}
+.area-data .area-text{
+    width: 55%;
+   
+}
+.area-data .area-text p{
+   font-size: .8rem;
+   line-height: 1.8;
+    color: #d5d5d5;
+}
+.area-information{
+    overflow: hidden;
+    width: 40%;
+   
+}
+.area-information ul{
+    list-style: none;
+}
+.area-information span:first-child{
+    color: #04b4e0;
+    margin-right: 6px;
+    text-transform: capitalize;
+
+}
+.area-information span:last-child{
+    color: #d5d5d5;
+    text-transform: uppercase;
+}
+
+
+.contact-boxs{
+    display: flex;
+    justify-self: center;
+} 
+
+
+.skillBox {
+    margin-bottom: .8rem;
+}
+.skillBox h5{
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+.bgGray{
+    background-color: gray;
+    border-radius: 25px;
+}
+.bgMain{
+    background-color: #04b4e0;
+    width: 95%;
+    border-radius: 25px;
+    text-align: right;
+}
+.relative{
+    position: relative;
+}
+.relative .languageSkils{
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    color: #fff;
+   
+}
+.languageSkils span{
+    text-transform: capitalize !important;
+}
+
+.languageSkils span.first{
+    color: #04b4e0;
+    font-size: 1rem;
+   
+}
